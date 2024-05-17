@@ -6,15 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Sono la Homepage</h1>
-    <h2>Ciao, {{ $name }} {{ $lastname }}, tanti auguri per i tuoi {{ $age }} anni</h2>
+    <h1>Hello World</h1>
+    <h2>Benvenuto, {{ $name }} </h2>
 
-    @if ($age > 18)
-        <div>Sei maggiorenne</div>
-    @elseif ($age < 18)
-        <div>Sei minorenne</div>
-    @else
-        <div>Inserisci la tua età</div>
-    @endif
+    
 </body>
 </html>

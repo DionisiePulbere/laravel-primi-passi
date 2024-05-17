@@ -15,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 $data = [
-    'name' => 'Denny',
-    'lastname' => 'Pulbere',
-    'age' => 26
+    'name' => 'Laravel'
     
 ];
 
@@ -28,6 +26,4 @@ Route::get('/chi-siamo', function () {
     return view('about');
 });
 
-// Route::get('/about', function(){
-//     return 'Ciao About';
-// });
+
